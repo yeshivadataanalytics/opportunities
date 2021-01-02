@@ -58,7 +58,6 @@ ul {
   padding: 0px;
 }
 ul li {
-  list-style: none;
   font-size: 14px;
   font-family: 'Nunito Sans', sans-serif;
   box-sizing: border-box;
@@ -72,8 +71,6 @@ ul li {
   -webkit-font-smoothing: antialiased;
   position: absolute;
   left: 0;
-  font-weight: 400;
-  margin-right: 5px;
   color: #888;
   
   
