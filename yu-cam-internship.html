@@ -165,6 +165,22 @@
 					
                     <button><a href="mailto: brandon.chiazza@yu.edu" class="btn btn-common">Apply for this job now</a> </button>
 					  <button class="btn btn-common" onclick="fileUpload()">Upload Resume</button>
+					  
+					   <form name="contactform" class="contactform" method="post" onsubmit="return validateForm()"  action="sendEmail.php">
+							<label>Sender Email:</label>
+								<input type="text" id="semail" name="semail" />
+							<label>Recipient Email:</label>
+								<input type="text" id="remail" name="remail" value="" />
+							<label for="Subject">Subject:</label>
+							<input type="text" name="Subject" id="Subject" />
+							<label for="Attachment">Attachment:</label>
+							<input type="file" name="attach1" id="attach1" />
+							<label for="Message">Message:</label><br />
+							<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+							<div class="btn btn-common">
+					<input type="submit"/>
+        </div>
+    </form>
                   </div>
                 </div>
               </div>
