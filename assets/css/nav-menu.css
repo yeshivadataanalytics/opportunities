@@ -120,6 +120,17 @@
   border-color: transparent transparent #fff;
   box-sizing: border-box;
 }
+
+
+.navbar-brand-logo-custom {
+  position: center;
+  padding: 50px;
+  display: block;
+  content: "";
+  background: #2c3840;
+  border-color: transparent transparent #fff;
+  box-sizing: border-box;
+}
 .navbar-default .navbar-nav > li.drop:hover .dropdown {
   visibility: visible;
   opacity: 1;
