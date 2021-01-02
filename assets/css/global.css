@@ -59,7 +59,22 @@ ul {
 }
 ul li {
   list-style: none;
-  margin: 0;
+font-size: 14px;
+box-sizing: border-box;
+-webkit-tap-highlight-color: transparent;
+font-family: 'themify';
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+position: absolute;
+left: 0;
+top: 4px;
+margin-right: 5px;
+color: #FF4F57;
 }
 ol {
   list-style: none;
